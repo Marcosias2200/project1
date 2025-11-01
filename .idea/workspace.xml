@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment="добавил описание проекта">
-      <change afterPath="$PROJECT_DIR$/tests/tests_hom_task.py" afterDir="false" />
+    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760954262618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py">
+      <option name="closed" value="true" />
+      <created>1761499492845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761499492845</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,6 +175,7 @@
     <MESSAGE value="Исправил функию sort_by_date и добавил docstring на каждую функцию&#10;misc добавил код чтоб не возника Error&#10;workspace сокротил и добавил изменения" />
     <MESSAGE value="Добавлен более побдробный docstring" />
     <MESSAGE value="добавил описание проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил описание проекта" />
+    <MESSAGE value="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py" />
   </component>
 </project>
