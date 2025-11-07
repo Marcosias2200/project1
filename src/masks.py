@@ -3,12 +3,12 @@ import re
 
 def validate_card_number(card_number: str) -> bool:
     """Проверяет, валиден ли номер карты (16 цифр)."""
-    return len(card_number) == 16 and re.match(r"^\d{16}$", card_number)
+    return bool(re.fullmatch(r"^\d{16}$", card_number))
 
 
 def validate_account_number(account_number: str) -> bool:
     """Проверяет, валиден ли номер счета (20 цифр)."""
-    return len(account_number) == 20 and re.match(r"^\d{20}$", account_number)
+    return bool(re.fullmatch(r"^\d{20}$", account_number))
 
 
 def get_mask_card_number(card_number: str) -> str:
