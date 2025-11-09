@@ -8,3 +8,4 @@ def valid_card():
 @pytest.fixture
 def mask_number():
     return "7000 79** **** 6361"
+
