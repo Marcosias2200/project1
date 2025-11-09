@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)&#10;закоментировал в masks.py">
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment="созданы папки с другими тестами">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/masks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/masks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hom_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_masks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
     "Python.widget.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/hom__task",
+    "git-widget-placeholder": "#7 on feature/hom__task",
     "last_opened_file_path": "C:/Users/B-Zone/PycharmProjects/project1/tests",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -199,9 +192,9 @@
     <list>
       <item itemvalue="Python.masks" />
       <item itemvalue="Python.widget" />
-      <item itemvalue="Python tests.pytest in tests" />
       <item itemvalue="Python tests.pytest for test_masks.test_get_mask_card_number" />
       <item itemvalue="Python tests.pytest for test_masks.test_invalid_cards" />
+      <item itemvalue="Python tests.pytest in tests" />
     </list>
     <recent_temporary>
       <list>
@@ -317,7 +310,63 @@
       <option name="project" value="LOCAL" />
       <updated>1762187704989</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="изменён return в функции validate_card_number&#10;validate_account_number &#10;сделан через bool &#10;упрощен">
+      <option name="closed" value="true" />
+      <created>1762528104861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528104861</updated>
+    </task>
+    <task id="LOCAL-00013" summary="новая папка conftest.py&#10;сделана 2 теста для фунций&#10;validate_card_number&#10;get_mask_card_number">
+      <option name="closed" value="true" />
+      <created>1762528198374</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528198374</updated>
+    </task>
+    <task id="LOCAL-00014" summary=".">
+      <option name="closed" value="true" />
+      <created>1762528212041</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528212041</updated>
+    </task>
+    <task id="LOCAL-00015" summary="удалён и переустановлен заного">
+      <option name="closed" value="true" />
+      <created>1762528252398</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528252398</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Убраны фикстуры в другую папку, изменён код и с сделан так чтоб тесты его проходили и добавлен ещё тестtest_get_mask_card_number&#10;на определение зашифровки карт">
+      <option name="closed" value="true" />
+      <created>1762528321945</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528321945</updated>
+    </task>
+    <task id="LOCAL-00017" summary="созданы папки с другими тестами">
+      <option name="closed" value="true" />
+      <created>1762528346480</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528346480</updated>
+    </task>
+    <task id="LOCAL-00018" summary="созданы папки с другими тестами">
+      <option name="closed" value="true" />
+      <created>1762528350579</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528350579</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,6 +378,12 @@
     <MESSAGE value="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка" />
     <MESSAGE value="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)" />
     <MESSAGE value="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)&#10;закоментировал в masks.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)&#10;закоментировал в masks.py" />
+    <MESSAGE value="изменён return в функции validate_card_number&#10;validate_account_number &#10;сделан через bool &#10;упрощен" />
+    <MESSAGE value="новая папка conftest.py&#10;сделана 2 теста для фунций&#10;validate_card_number&#10;get_mask_card_number" />
+    <MESSAGE value="." />
+    <MESSAGE value="удалён и переустановлен заного" />
+    <MESSAGE value="Убраны фикстуры в другую папку, изменён код и с сделан так чтоб тесты его проходили и добавлен ещё тестtest_get_mask_card_number&#10;на определение зашифровки карт" />
+    <MESSAGE value="созданы папки с другими тестами" />
+    <option name="LAST_COMMIT_MESSAGE" value="созданы папки с другими тестами" />
   </component>
 </project>
