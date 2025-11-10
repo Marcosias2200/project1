@@ -35,3 +35,13 @@ def sort_bate():
         {'id': 4, 'amount': 300, 'date': '2023-09-01T09:00:00.000000'},
         {'id': 5, 'amount': 50, 'date': '2023-09-03T15:00:00.000000'},
     ]
+
+
+@pytest.fixture
+def account_data():
+    return  'Карта 700079******6361'
+
+
+@pytest.fixture
+def date():
+    return '11.03.2024'
