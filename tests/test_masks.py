@@ -21,3 +21,6 @@ def test_invalid_cards(card_numbers):
 def test_get_mask_card_number(mask_number):
     assert get_mask_card_number("7000798143256361") == mask_number
 
+
+def test_get_mask_account(get_mask):
+    assert get_mask_account("73654108430135874305") == get_mask
