@@ -21,9 +21,3 @@ def get_mask_account(account_number: str) -> str:
     return "**" + account_number[-4:]
 
 
-# if __name__ == "__main__":
-#     try:
-#         print(get_mask_card_number("7000792289606361"))  # 7000 79** **** 6361 выход функции
-#         print(get_mask_account("73654108430135874305"))  # **4305 выход функции
-#     except ValueError as e:
-#         print(e)
