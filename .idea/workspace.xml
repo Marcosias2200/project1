@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_widget.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Marcosias2200/project1.git&quot;,
     &quot;accountId&quot;: &quot;11688408-6ae1-422b-a5b5-d44ac6955080&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Marcosias2200&quot;,
+    &quot;repository&quot;: &quot;project1&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -44,41 +55,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.masks.executor": "Debug",
-    "Python.widget.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/hom__task",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest for test_masks.test_get_mask_card_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_masks.test_invalid_cards.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_processing.test_sort_by_date.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_widget.test_mask_account_card.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_widget.test_mask_account_card_without_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests_masks.test_invalid_cards.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests_masks.test_valid_card.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in project1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in tests (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.masks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.widget.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/hom__task&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/B-Zone/PycharmProjects/project1/tests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.widget">
-    <configuration name="masks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.10 (project1)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/masks.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="widget" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject3" />
       <option name="ENV_FILES" value="" />
@@ -102,14 +101,125 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_masks.test_get_mask_card_number" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_masks.test_get_mask_card_number&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_processing.test_sort_by_date" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_processing.test_sort_by_date&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_widget.test_mask_account_card" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widget.test_mask_account_card&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_widget.test_mask_account_card_without_number" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widget.test_mask_account_card_without_number&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Poetry (project1)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;C:\\Users\\B-Zone\\PycharmProjects\\project1\\tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 (project1)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;C:\\Users\\B-Zone\\PycharmProjects\\project1\\tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.masks" />
       <item itemvalue="Python.widget" />
+      <item itemvalue="Python tests.pytest for test_masks.test_get_mask_card_number" />
+      <item itemvalue="Python tests.pytest for test_processing.test_sort_by_date" />
+      <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card" />
+      <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card_without_number" />
+      <item itemvalue="Python tests.pytest in tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.masks" />
+        <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card" />
         <item itemvalue="Python.widget" />
+        <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card_without_number" />
+        <item itemvalue="Python tests.pytest for test_processing.test_sort_by_date" />
+        <item itemvalue="Python tests.pytest for test_masks.test_get_mask_card_number" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +239,218 @@
       <option name="presentableId" value="Default" />
       <updated>1756544515406</updated>
     </task>
+    <task id="LOCAL-00001" summary="Исправил функию sort_by_date и добавил docstring на каждую функцию">
+      <option name="closed" value="true" />
+      <created>1760685511915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760685511915</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Исправил функию sort_by_date и добавил docstring на каждую функцию&#10;misc добавил код чтоб не возника Error&#10;workspace сокротил и добавил изменения">
+      <option name="closed" value="true" />
+      <created>1760685642792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760685642792</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавлен более побдробный docstring">
+      <option name="closed" value="true" />
+      <created>1760954104203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760954104203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавил описание проекта">
+      <option name="closed" value="true" />
+      <created>1760954262618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760954262618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py">
+      <option name="closed" value="true" />
+      <created>1761499492845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761499492845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py">
+      <option name="closed" value="true" />
+      <created>1761997233066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761997233066</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py">
+      <option name="closed" value="true" />
+      <created>1762185090287</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762185090287</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка">
+      <option name="closed" value="true" />
+      <created>1762187341056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762187341056</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)">
+      <option name="closed" value="true" />
+      <created>1762187669703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762187669703</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)&#10;закоментировал в masks.py">
+      <option name="closed" value="true" />
+      <created>1762187701696</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762187701696</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)&#10;закоментировал в masks.py">
+      <option name="closed" value="true" />
+      <created>1762187704989</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762187704989</updated>
+    </task>
+    <task id="LOCAL-00012" summary="изменён return в функции validate_card_number&#10;validate_account_number &#10;сделан через bool &#10;упрощен">
+      <option name="closed" value="true" />
+      <created>1762528104861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528104861</updated>
+    </task>
+    <task id="LOCAL-00013" summary="новая папка conftest.py&#10;сделана 2 теста для фунций&#10;validate_card_number&#10;get_mask_card_number">
+      <option name="closed" value="true" />
+      <created>1762528198374</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528198374</updated>
+    </task>
+    <task id="LOCAL-00014" summary=".">
+      <option name="closed" value="true" />
+      <created>1762528212041</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528212041</updated>
+    </task>
+    <task id="LOCAL-00015" summary="удалён и переустановлен заного">
+      <option name="closed" value="true" />
+      <created>1762528252398</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528252398</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Убраны фикстуры в другую папку, изменён код и с сделан так чтоб тесты его проходили и добавлен ещё тестtest_get_mask_card_number&#10;на определение зашифровки карт">
+      <option name="closed" value="true" />
+      <created>1762528321945</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528321945</updated>
+    </task>
+    <task id="LOCAL-00017" summary="созданы папки с другими тестами">
+      <option name="closed" value="true" />
+      <created>1762528346480</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528346480</updated>
+    </task>
+    <task id="LOCAL-00018" summary="созданы папки с другими тестами">
+      <option name="closed" value="true" />
+      <created>1762528350579</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1762528350579</updated>
+    </task>
+    <task id="LOCAL-00019" summary="созданы папки с другими тестами">
+      <option name="closed" value="true" />
+      <created>1762722571014</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1762722571014</updated>
+    </task>
+    <task id="LOCAL-00020" summary="созданы папки с другими тестами">
+      <option name="closed" value="true" />
+      <created>1762722576042</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1762722576042</updated>
+    </task>
+    <task id="LOCAL-00021" summary="написал все тесты на masks.py">
+      <option name="closed" value="true" />
+      <created>1762765235523</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1762765235523</updated>
+    </task>
+    <task id="LOCAL-00022" summary="написал все тесты на masks.py">
+      <option name="closed" value="true" />
+      <created>1762765238494</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1762765238494</updated>
+    </task>
+    <task id="LOCAL-00023" summary="написал все тесты на processing.py&#10;проверяет список и его сортировку">
+      <option name="closed" value="true" />
+      <created>1762766962002</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1762766962002</updated>
+    </task>
+    <task id="LOCAL-00024" summary=".">
+      <option name="closed" value="true" />
+      <created>1762766975003</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1762766975003</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Исправил функию sort_by_date и добавил docstring на каждую функцию" />
+    <MESSAGE value="Исправил функию sort_by_date и добавил docstring на каждую функцию&#10;misc добавил код чтоб не возника Error&#10;workspace сокротил и добавил изменения" />
+    <MESSAGE value="Добавлен более побдробный docstring" />
+    <MESSAGE value="добавил описание проекта" />
+    <MESSAGE value="добавлен groups&#10;испавлен tool.poetry.group.dev.dependencies&#10;создан tests_hom_task.py" />
+    <MESSAGE value="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка" />
+    <MESSAGE value="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)" />
+    <MESSAGE value="Тесть для функции valid_car_number&#10;Проверка на боньше &#10;больше &#10;букву &#10;пустая строка &#10;(ИЗМЕНИЛ КОД)&#10;закоментировал в masks.py" />
+    <MESSAGE value="изменён return в функции validate_card_number&#10;validate_account_number &#10;сделан через bool &#10;упрощен" />
+    <MESSAGE value="новая папка conftest.py&#10;сделана 2 теста для фунций&#10;validate_card_number&#10;get_mask_card_number" />
+    <MESSAGE value="удалён и переустановлен заного" />
+    <MESSAGE value="Убраны фикстуры в другую папку, изменён код и с сделан так чтоб тесты его проходили и добавлен ещё тестtest_get_mask_card_number&#10;на определение зашифровки карт" />
+    <MESSAGE value="созданы папки с другими тестами" />
+    <MESSAGE value="написал все тесты на masks.py" />
+    <MESSAGE value="написал все тесты на processing.py&#10;проверяет список и его сортировку" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
