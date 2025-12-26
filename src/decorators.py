@@ -9,21 +9,20 @@ def log(filename=None):
     # Настройка логирования
     if filename:
         logging.basicConfig(filename=filename, level=logging.INFO,
-                            format='%(asctime)s - %(levelname)s - %(message)s')
+                            format='%(message)s')  # Убрали дату и уровень
     else:
         logging.basicConfig(level=logging.INFO,
-                            format='%(asctime)s - %(levelname)s - %(message)s')
+                            format='%(message)s')  # Убрали дату и уровень
 
     def decorator(func):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
             try:
-                logging.info(f"Начало выполнения функции: {func.__name__} с аргументами {args}, {kwargs}")
                 result = func(*args, **kwargs)
-                logging.info(f"Функция: {func.__name__} завершена успешно, результат: {result}")
+                logging.info(f"{func.__name__} ok")  # Успешное выполнение
                 return result
             except Exception as e:
-                logging.error(f"Ошибка при выполнении функции: {func.__name__}, тип ошибки: {type(e).__name__}, аргументы: {args}, {kwargs}")
+                logging.error(f"{func.__name__} error: {type(e).__name__}. Inputs: {args}, {kwargs}")  # Ошибка выполнения
                 raise
         return wrapper
     return decorator
