@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment="исправил ошибки по дх">
+    <list default="true" id="4597a20f-bdbe-443d-882a-4f9f13ba2c74" name="Changes" comment="написал модуль и тесты к нему">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest for test_decorators.test_add.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_masks.test_get_mask_card_number.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_masks.test_invalid_cards.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_processing.test_sort_by_date.executor&quot;: &quot;Run&quot;,
@@ -76,12 +75,12 @@
     &quot;Python.widget.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/hom__task&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#12 on feature/hom__task&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/B-Zone/PycharmProjects/project1/tests&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.pytest in tests">
+  <component name="RunManager" selected="Python tests.pytest for test_decorators.test_add">
     <configuration name="widget" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject3" />
       <option name="ENV_FILES" value="" />
@@ -105,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_masks.test_get_mask_card_number" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_decorators.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="project1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +117,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_masks.test_get_mask_card_number&quot;" />
+      <option name="_new_target" value="&quot;test_decorators.test_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -212,18 +211,18 @@
     <list>
       <item itemvalue="Python.widget" />
       <item itemvalue="Python tests.pytest in tests" />
-      <item itemvalue="Python tests.pytest for test_masks.test_get_mask_card_number" />
+      <item itemvalue="Python tests.pytest for test_decorators.test_add" />
       <item itemvalue="Python tests.pytest for test_processing.test_sort_by_date" />
       <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card" />
       <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card_without_number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_decorators.test_add" />
         <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card" />
         <item itemvalue="Python.widget" />
         <item itemvalue="Python tests.pytest for test_widget.test_mask_account_card_without_number" />
         <item itemvalue="Python tests.pytest for test_processing.test_sort_by_date" />
-        <item itemvalue="Python tests.pytest for test_masks.test_get_mask_card_number" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +466,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765531188460</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="исправил ошибки по дх">
+      <option name="closed" value="true" />
+      <created>1766405461933</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1766405461933</updated>
+    </task>
+    <task id="LOCAL-00030" summary="исправил ошибки по дх">
+      <option name="closed" value="true" />
+      <created>1766405465731</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1766405465731</updated>
+    </task>
+    <task id="LOCAL-00031" summary="написал модуль и тесты к нему">
+      <option name="closed" value="true" />
+      <created>1766756877996</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1766756877996</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -490,6 +513,7 @@
     <MESSAGE value="тесты для всех новых написанных функций" />
     <MESSAGE value="." />
     <MESSAGE value="исправил ошибки по дх" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправил ошибки по дх" />
+    <MESSAGE value="написал модуль и тесты к нему" />
+    <option name="LAST_COMMIT_MESSAGE" value="написал модуль и тесты к нему" />
   </component>
 </project>
