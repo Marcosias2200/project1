@@ -1,6 +1,7 @@
 import pytest
 from unittest.mock import patch
-from external_api import convert_to_rubles
+from external_api.external_api import convert_to_rubles
+
 
 @pytest.fixture
 def mock_transaction():

@@ -1,6 +1,6 @@
 import os
 import requests
-from dotenv import load_dotenv
+from utils import load_dotenv
 from typing import Dict
 
 load_dotenv()  # Загружает переменные окружения из файла .env
