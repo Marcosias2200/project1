@@ -1,8 +1,9 @@
 import json
 import os
+from typing import List, Dict, Any
 
 
-def load_transactions_from_json(file_path: str) -> list:
+def load_transactions_from_json(file_path: str) -> List[Dict[str, Any]]:
     """
     Загружает данные о финансовых транзакциях из JSON-файла.
 
